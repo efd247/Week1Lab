@@ -1,0 +1,20 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="LabGUI.MainWindow"
+        Width="400"
+        Height="300"
+        Title="LabGUI"
+        RequestedThemeVariant="Light">
+
+    <StackPanel Margin="30" Spacing="25">
+
+        <TextBox Name="messageTextBox"
+                 Foreground="Black"/>
+
+        <CheckBox Name="ColourCheckBox"
+          Content="Red"
+          Click="ColourCheckBox_Click"/>
+
+    </StackPanel>
+
+</Window>
